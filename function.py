@@ -1,24 +1,52 @@
+def soma():
+    nun_01 = 9
+    nun_02 = 7
 
-   
-
-   
-   
+    resultado = nun_01 + nun_02
+    return resultado
 
 def somarDoisNumeros(nota_01, nota_02):
-    nota_01 = nota_01 
-    nota_02 = nota_02 
+    num_01 = nota_01
+    num_02 = nota_02
 
-    resultado = nota_01 + nota_02
+    resultado = num_01 + num_02
 
-    return  print(resultado)
+    return print(resultado)
 
-#somarDoisNumeros(17, 17)
+somarDoisNumeros(24, 98)
 
 
-A_01 = 70
-B_02 = 2
- 
 
-resultado = A_01 * B_02
+def somarDoisNumeros(nota_01, nota_02):
+    num_01 = nota_01
+    num_02 = nota_02
 
-somarDoisNumeros (70, 2)
+    resultado = num_01 * num_02
+
+    return print(resultado)
+
+somarDoisNumeros(24, 98)
+
+
+
+def somarDoisNumeros(nota_01, nota_02):
+    num_01 = nota_01
+    num_02 = nota_02
+
+    resultado = num_01 % num_02
+
+    return print(resultado)
+
+somarDoisNumeros(24, 98)
+
+
+
+def cadastrar(nome, idade):
+
+    data = {
+    "nome": nome,
+    "idade": idade
+}
+   return print(data)
+
+cadastrar("vinicius"), 17
